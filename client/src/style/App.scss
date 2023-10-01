@@ -1,1 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Notable&family=Poppins:wght@100;300;500&display=swap");
+
+$primary: #ff6700;
+$border-radius: 1rem;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+	background-color: #181818;
+	color: white;
+}
+
+.heading3 {
+	font-family: "Notable", sans-serif;
+	font-size: 3rem;
+}
+
+.heading5 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1rem;
+}
